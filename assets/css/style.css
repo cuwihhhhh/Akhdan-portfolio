@@ -1313,33 +1313,10 @@ textarea.form-input::-webkit-resizer {
 \*-----------------------------------*/
 
 /**
- * responsive larger than 450px screen
- */
-
-@media (min-width: 450px) {
-  /**
-   * client
-   */
-
-  .clients-item {
-    min-width: calc(33.33% - 10px);
-  }
-
-  /**
-   * #PORTFOLIO, BLOG 
-   */
-
-  .project-img,
-  .blog-banner-box {
-    height: auto;
-  }
-}
-
-/**
  * responsive larger than 580px screen
  */
 
-@media (min-width: 580px) {
+@media (min-width: 400px) {
   /**
    * CUSTOM PROPERTY
    */
